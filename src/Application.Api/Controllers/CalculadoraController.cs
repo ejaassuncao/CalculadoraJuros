@@ -32,7 +32,7 @@ namespace Application.Api.Controllers
         public IActionResult Get(double valorinicial, int meses)
         {
             var valorCalculado = string.Format("{0:c2}", _calculadoraJuros.CalcuraJurosCompostos(valorinicial, meses, _calculadoraJuros.GetTaxaJuros));
-         
+
             return Ok(new { ValorCalculado = valorCalculado });
         }
     }
