@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Application.Api.Controllers.AjudaController.Showmethecode">
+            <summary>
+            Metodo responsável por retornar a URL do meu projeto no github
+            </summary>      
+        </member>
+        <member name="M:Application.Api.Controllers.CalculadoraController.Get">
+            <summary>
+            Retorna o juros de 1% ou 0,01
+            </summary>      
+        </member>
+        <member name="M:Application.Api.Controllers.CalculadoraController.Get(System.Double,System.Int32)">
+            <summary>
+            Ela faz um cálculo em memória, de juros compostos, conforme abaixo: Valor Final = Valor Inicial * (1 + juros) ^ Tempo
+            </summary>      
+        </member>
+    </members>
+</doc>
