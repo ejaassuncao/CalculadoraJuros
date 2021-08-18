@@ -13,7 +13,7 @@ namespace Application.Api.Controllers
         [HttpGet("showmethecode")]
         public IActionResult Showmethecode()
         {
-            return Ok(new { URL = "https://github.com/ejaassuncao/CalculadoraJuros" });
+            return Ok("https://github.com/ejaassuncao/CalculadoraJuros");
         }
         
     }

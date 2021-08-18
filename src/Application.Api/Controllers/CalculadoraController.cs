@@ -22,7 +22,7 @@ namespace Application.Api.Controllers
         {
             var taxaDeJuros = string.Format("{0:N}", _calculadoraJuros.GetTaxaJuros);
 
-            return Ok(new { taxaJuros = taxaDeJuros });
+            return Ok(taxaDeJuros);
         }
 
         /// <summary>
@@ -33,7 +33,7 @@ namespace Application.Api.Controllers
         {
             var valorCalculado = string.Format("{0:c2}", _calculadoraJuros.CalcuraJurosCompostos(valorinicial, meses, _calculadoraJuros.GetTaxaJuros));
 
-            return Ok(new { ValorCalculado = valorCalculado });
+            return Ok(valorCalculado);
         }
     }
 }
