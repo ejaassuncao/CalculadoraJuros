@@ -3,7 +3,7 @@ using System;
 
 namespace Application.Api.Controllers
 {
-    [Route("/api/ajuda")]
+    [Route("/api/[controller]")]
     [ApiController]    
     public class AjudaController : ControllerBase
     {
