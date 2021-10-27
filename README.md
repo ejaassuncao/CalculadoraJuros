@@ -1,37 +1,37 @@
-# API - C·lculo de juros compostos
+# API - C√°lculo de juros compostos
 
-Este projeto visa disponibilizar uma API para c·lculo de juros compostos.
+Este projeto visa disponibilizar uma API para c√°lculo de juros compostos.
 
 ## Tecnologias utilizadas
 
- - .NET core 2.1.1 (no momento possuo apenas essa vers„o)
+ - .NET core 2.1.1 (no momento possuo apenas essa vers√£o)
  - WebApi
- - Arquitetura DDD (Domain Driven Designer)
+ - Arquitetura DDD (Domain Driven Designer) (A implementar todo conceito)
  - Filter para tratamento de Erros
- - CDI - InjeÁ„o de dependÍnciaui 
+ - CDI - Inje√ß√£o de depend√™nciaui 
  - XUnit  para teste de unidade
- - Lib Newtonsoft.Json. para formataÁ„o dos dados da API
+ - Lib Newtonsoft.Json. para formata√ß√£o dos dados da API
  - GIT (Versionamento)
- - Swagger DocumentaÁ„o da API, com documentaÁ„o  via xml comet·rios
+ - Swagger Documenta√ß√£o da API, com documenta√ß√£o  via xml comet√°rios
 
 ## Roodmap
 
-- Utilizar o Docket. (N„o consegui utilizar porque windows 7 n„o suporta :( )
+- Utilizar o Docket. (N√£o consegui utilizar porque windows 7 n√£o suporta :( )
 - Migrar para .netcore 5
-- Criar teste de integraÁ„o
+- Criar teste de integra√ß√£o
 
 ## Contributing
-* **Elton John AssunÁ„o** https://github.com/ejaassuncao
+* **Elton John Assun√ß√£o** https://github.com/ejaassuncao
 
 ## Versioning
 1.0.0
 
 ## Authors
-* **Elton John AssunÁ„o**
+* **Elton John Assun√ß√£o**
 
 
 ## Tecnologias Utilizadas
-* **Elton John AssunÁ„o**
+* **Elton John Assun√ß√£o**
 
 ## License
 * ***Gratuita.***
