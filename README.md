@@ -8,7 +8,7 @@ Este projeto visa disponibilizar uma API para cálculo de juros compostos.
  - WebApi
  - Arquitetura DDD (Domain Driven Designer) (A implementar todo conceito)
  - Filter para tratamento de Erros
- - CDI - Injeção de dependênciaui 
+ - CDI - Injeção de dependência
  - XUnit  para teste de unidade
  - Lib Newtonsoft.Json. para formatação dos dados da API
  - GIT (Versionamento)
